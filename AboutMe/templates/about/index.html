@@ -1,0 +1,36 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Home | Enosh Sagmit</title>
+        <link rel="icon" href="{% static 'images/ESLOGO.png' %}" type="image/png">
+        <link href="{% static 'about/styles.css' %}" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <img src="{% static 'images/ESLOGO.png' %}" alt="Enosh Sagmit Logo" id="logo">
+            <nav>
+                <ul>
+                    <li><a href="/projects/">Projects</a></li>
+                    <li><a href="/about/" class="active">About</a></li>
+                </ul>
+            </nav>
+        </header>
+        <div class="layoutpage">
+            <div class="titlepage">
+                <h1 id="titlepagename">Enosh Sagmit</h1>
+            </div>
+            <div>
+                <h2 class="aboutme">About Me</h2>
+                <hr class="styled-line">
+                <div class="container">
+                    <div class="layoutbody"><p class="aboutinfo">A curious and driven Information Technology student of Holy Angel University with a passion for making websites and applications that will solve real-world problems. I'm specifically interested in the field of Web Development, both front-end and back-end. I've learned different courses about Web Programming, including courses from Harvard University. I'm always eager to learn new knowledge, especially with my projects. I value teamwork, relentness learning, and building things that provide value to people, making their everyday lives easier. Right now, I'm looking forward to creating projects that are valuable in everyday settings and projects that solve real-world problems.</p></div>
+                    <div class="layoutbody"><img src="{% static 'images/aboutmepic.jpg' %}" alt="Enosh Sagmit" class="aboutmepic"></div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

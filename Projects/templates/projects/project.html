@@ -1,0 +1,33 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Home | Enosh Sagmit</title>
+        <link rel="icon" href="{% static 'images/ESLOGO.png' %}" type="image/png">
+        <link href="{% static 'about/projects.css' %}" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <img src="{% static 'images/ESLOGO.png' %}" alt="Enosh Sagmit Logo" id="logo">
+            <nav>
+                <ul>
+                    <li><a href="/projects/" class="active">Projects</a></li>
+                    <li><a href="/about/">About</a></li>
+                </ul>
+            </nav>
+        </header>
+        <div class="layoutpage">
+            <div class="titlepage">
+                <h1 id="titlepagename">Projects</h1>
+            </div>
+            <div>
+                <h2 class="webapps">Websites & Applications</h2>
+                <hr class="styled-line">
+                <div class="container"><h6 class="up">Upcoming!</h6></div>
+            </div>
+        </div>
+    </body>
+</html>
